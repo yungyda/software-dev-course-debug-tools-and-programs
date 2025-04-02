@@ -1,37 +1,53 @@
-Objective:
-Students will apply debugging tools and strategies to identify and fix errors in a pre-written JavaScript application. The exercise emphasizes using the Console, Sources tab, debugger statement, and practical strategies like isolating problematic code and testing edge cases.
+# 🛠️ Debugging Practice: E-Commerce Application
 
+## 🎯 Objective
 
+Students will apply **debugging tools and strategies** to identify and fix errors in a pre-written JavaScript application.
 
-Scenario
-You are tasked with debugging a simple JavaScript application for an e-commerce platform. The application calculates the total price of items in a shopping cart, applies discounts, and generates a receipt. Unfortunately, the application has several bugs that cause it to malfunction. Your job is to:
-1. Identify and fix errors using browser developer tools.
-2. Analyze the error messages and call stack for debugging insights.
-3. Test edge cases to ensure the program functions correctly.
+This exercise emphasizes using:
 
+- The **Console**
+- The **Sources tab**
+- The **`debugger` statement**
+- Practical strategies like **isolating problematic code** and **testing edge cases**
 
+---
 
-Instructions
-Setup the Debugging Environment:
-Open the HTML file in a browser and use Developer Tools (F12 or Ctrl+Shift+I) to debug.
+## 🛒 Scenario
 
+You are tasked with debugging a simple **JavaScript application** for an **e-commerce platform**.
 
+The application is supposed to:
 
-Tasks
-1. Identify Errors:
-  Use the Console tab to locate syntax and runtime errors.
-  Use the Sources tab to set breakpoints in the calculateTotal, applyDiscount, and generateReceipt functions.
+- Calculate the **total price** of items in a shopping cart
+- Apply **discounts**
+- Generate a **receipt**
 
-2. Debug and Fix Errors:
-  Analyze error messages and the call stack to understand the root cause.
-  Use the debugger statement to pause execution in loops and inspect variable values.
+Unfortunately, the application has several bugs that are causing it to malfunction.
 
-3. Validate Fixes:
-  Test the corrected program with the given cart and a few edge cases:
-    An empty cart.
-    A cart with one item.
-    A discountRate of 0 or 1.
+---
 
-4. Write a Summary:
-  Document the errors you found and how you fixed them.
-  Explain how debugging tools helped you locate and resolve issues.
+## 🧩 Your Task
+
+You will:
+
+- 🐛 **Identify and fix errors** using browser developer tools
+- 🔍 **Analyze error messages and the call stack** for clues
+- 🧪 **Test edge cases** to make sure the program behaves correctly in different scenarios
+
+---
+
+## 🖥️ Instructions
+
+### 1. Set Up the Debugging Environment
+
+- Open the project’s `index.html` file in your **browser**
+- Launch **Developer Tools** using:
+  - `F12`, or  
+  - `Ctrl+Shift+I` (Windows) / `Cmd+Option+I` (Mac)
+  
+From there, use the **Console**, **Sources tab**, and **debugger statements** to investigate and fix issues in the JavaScript code.
+
+---
+
+Let me know if you'd like to add starter files, error clues, or a checklist of bugs to find!
